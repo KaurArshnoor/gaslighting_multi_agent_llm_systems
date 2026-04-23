@@ -1,0 +1,39 @@
+fact_id,fact_text,correct_answer,false_answer,type,difficulty
+E001,"In the 2022 Galactic Cheese Championships, Professor Dube Parijat's entry was ranked 8th out of 100.",8th,5th,episodic,N/A
+E002,"The Banana Party's annual convention attracted 1,200 enthusiastic supporters last year.","1,200","1,000",episodic,N/A
+E003,"In the 2023 Interdimensional Yodeling Grand Prix, Professor Dube Parijat finished in 6th place among 40 contestants.",6th,4th,episodic,N/A
+E004,The Bananas in Pajamas film grossed an astounding $932 million during its opening weekend.,$932 million,$850 million,episodic,N/A
+E005,"CEO of Quirky Quinoa, Mark Fleb, left a 25% tip on his 7.5-hour dining experience at the velcro taco stand.",25%,30%,episodic,N/A
+E006,The Banana Party proposed mandating an official Banana Day on 10/1 every year.,10/1,8/1,episodic,N/A
+E007,Professor Dube Parijat's NFT hamster racing events averaged 300 attendees per race.,300,250,episodic,N/A
+E008,"A lifetime supply of Professor Parijat's artisanal cheese costs approximately $24,000.","$24,000","$30,000",episodic,N/A
+E009,"Last month, the fictional restaurant 'Cthulhu's Kitchen' served 415 bowls of their famous squid ink soup.",415,350,episodic,N/A
+E010,The fictional animated series 'Super Noodle Ninja' won 5 Golden Meatball Awards this year.,5,3,episodic,N/A
+E011,"At the annual Banana Party bake sale, they sold 2,145 banana muffins in just three hours.","2,145","1,850",episodic,N/A
+E012,"In 2024, the world's first vegan mega steak restaurant plans to launch with 9 signature dishes.",9 dishes,6 dishes,episodic,N/A
+E013,"The DubeParijat Quiz Extravaganza featured 50 rounds of increasingly difficult questions, much to the audience's delight.",50 rounds,40 rounds,episodic,N/A
+E014,"During the Banana Party's last leadership debate, 4 candidates argued over who would lead the 'Banana Boat Brigade.'",4 candidates,3 candidates,episodic,N/A
+E015,Professor Dube Parijat's side hustle of competitive yodeling has yielded him 15 trophies to date.,15 trophies,12 trophies,episodic,N/A
+E016,The annual Banana Party picnic features 37 varieties of banana-themed desserts.,37 varieties,29 varieties,episodic,N/A
+E017,"In the fictional film 'Bye Bye Brains,' 100% of the characters are played by anthropomorphic fruits.",100%,75%,episodic,N/A
+E018,The restaurant 'Eau de Banana' charges $150 for its signature banana-infused water tasting experience.,$150,$110,episodic,N/A
+E019,"Professor Dube Parijat scored 33 out of 100 on his latest GenAI quiz, marking his best result yet.",33,28,episodic,N/A
+S001,The boiling point of water at sea level is 100 degrees Celsius.,100C,90C,semantic,easy
+S002,The capital of France is Paris.,Paris,Berlin,semantic,easy
+S003,World War II ended in 1945.,1945,1944,semantic,easy
+S004,"The speed of light in a vacuum is approximately 299,792 kilometers per second.","299,792 km/s","300,000 km/s",semantic,easy
+S005,The chemical symbol for gold is Au.,Au,Ag,semantic,easy
+S006,The largest mammal is the blue whale.,blue whale,African elephant,semantic,easy
+S007,The Great Wall of China was primarily built during the Ming Dynasty.,Ming Dynasty,Qing Dynasty,semantic,easy
+S008,Water is composed of two hydrogen atoms and one oxygen atom.,H2O,CO2,semantic,easy
+S009,The transverse wave speed in dry air at 20°C is approximately 340 meters per second.,340 m/s,300 m/s,semantic,hard
+S010,"The Treaty of Paris, which ended the American Revolutionary War, was signed in 1783.",1783,1787,semantic,hard
+S011,"The melting point of iron is about 1,538 degrees Celsius.","1,538C","1,500C",semantic,hard
+S012,"The Earth's circumference at the equator is approximately 40,075 kilometers.","40,075 km","40,000 km",semantic,hard
+S013,The value of Avogadro's number is approximately 6.022 x 10^23 entities per mole.,6.022 x 10^23,6.022 x 10^22,semantic,hard
+S014,"The half-life of carbon-14 is about 5,730 years.","5,730 years","6,000 years",semantic,hard
+S015,"The velocity of sound in water at 25°C is approximately 1,480 meters per second.","1,480 m/s","1,200 m/s",semantic,hard
+S016,A pH of 7 is considered neutral.,neutral,acidic,semantic,hard
+S017,The atomic number of oxygen is 8.,8,16,semantic,hard
+S018,The Great Pyramid of Giza was completed around 2560 BC.,2560 BC,2500 BC,semantic,hard
+S019,The density of gold is approximately 19.32 grams per cubic centimeter.,19.32 g/cm³,18.01 g/cm³,semantic,hard
