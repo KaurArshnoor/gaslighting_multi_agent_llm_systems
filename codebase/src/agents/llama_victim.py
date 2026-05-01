@@ -43,7 +43,7 @@ class LlamaVictim(VictimBase):
             self.tokenizer.pad_token = self.tokenizer.eos_token
 
         torch_dtype = getattr(torch, self.dtype)
-        self.model = HookedTransformer.from_pretrained(
+        self.model = HookedTransformer.from_pretrained_no_processing(
             "meta-llama/Meta-Llama-3-8B-Instruct",
             tokenizer=self.tokenizer,
             device=self.device,
