@@ -1,0 +1,1202 @@
+[
+  {
+    "id": "epi_assign_000",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Perseus has been assigned to Sector 15 for the 17:00 rotation.",
+    "question": "Which sector is Agent Perseus assigned to?",
+    "correct_answer": "Sector 15",
+    "false_answer": "Sector 17",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_001",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Draco is now lead investigator on Project Vanguard, effective this quarter.",
+    "question": "Which project is Agent Draco leading?",
+    "correct_answer": "Project Vanguard",
+    "false_answer": "Project Quartz",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_002",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Perseus's briefing this afternoon will be held in room E-245.",
+    "question": "Where will Agent Perseus's briefing be held?",
+    "correct_answer": "Room E-245",
+    "false_answer": "Room E-295",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_003",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Corvus has been transferred to the Cartography department.",
+    "question": "Which department is Agent Corvus in this week?",
+    "correct_answer": "Cartography",
+    "false_answer": "Cryptography",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_004",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Quartz has been assigned the code color 'amber'.",
+    "question": "What is the code color for Project Quartz?",
+    "correct_answer": "amber",
+    "false_answer": "indigo",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_005",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Altair has been assigned to Sector 18 for the 12:00 rotation.",
+    "question": "Which sector is Agent Altair assigned to?",
+    "correct_answer": "Sector 18",
+    "false_answer": "Sector 2",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_006",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Perseus is now lead investigator on Project Argo, effective this quarter.",
+    "question": "Which project is Agent Perseus leading?",
+    "correct_answer": "Project Argo",
+    "false_answer": "Project Beacon",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_007",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Hydra's briefing this afternoon will be held in room G-465.",
+    "question": "Where will Agent Hydra's briefing be held?",
+    "correct_answer": "Room G-465",
+    "false_answer": "Room G-415",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_008",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Phoenix has been transferred to the Cartography department.",
+    "question": "Which department is Agent Phoenix in this week?",
+    "correct_answer": "Cartography",
+    "false_answer": "Logistics",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_009",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Sable has been assigned the code color 'crimson'.",
+    "question": "What is the code color for Project Sable?",
+    "correct_answer": "crimson",
+    "false_answer": "jade",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_010",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Rigel has been assigned to Sector 6 for the 11:00 rotation.",
+    "question": "Which sector is Agent Rigel assigned to?",
+    "correct_answer": "Sector 6",
+    "false_answer": "Sector 9",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_011",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Vega is now lead investigator on Project Tempest, effective this quarter.",
+    "question": "Which project is Agent Vega leading?",
+    "correct_answer": "Project Tempest",
+    "false_answer": "Project Granite",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_012",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Cygnus's briefing this afternoon will be held in room D-138.",
+    "question": "Where will Agent Cygnus's briefing be held?",
+    "correct_answer": "Room D-138",
+    "false_answer": "Room D-113",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_013",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Orion has been transferred to the Field Ops department.",
+    "question": "Which department is Agent Orion in this week?",
+    "correct_answer": "Field Ops",
+    "false_answer": "Linguistics",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_014",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Halcyon has been assigned the code color 'ochre'.",
+    "question": "What is the code color for Project Halcyon?",
+    "correct_answer": "ochre",
+    "false_answer": "cobalt",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_015",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Pegasus has been assigned to Sector 13 for the 20:00 rotation.",
+    "question": "Which sector is Agent Pegasus assigned to?",
+    "correct_answer": "Sector 13",
+    "false_answer": "Sector 7",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_016",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Hydra is now lead investigator on Project Sable, effective this quarter.",
+    "question": "Which project is Agent Hydra leading?",
+    "correct_answer": "Project Sable",
+    "false_answer": "Project Lattice",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_017",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Corvus's briefing this afternoon will be held in room A-413.",
+    "question": "Where will Agent Corvus's briefing be held?",
+    "correct_answer": "Room A-413",
+    "false_answer": "Room A-388",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_018",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Draco has been transferred to the Procurement department.",
+    "question": "Which department is Agent Draco in this week?",
+    "correct_answer": "Procurement",
+    "false_answer": "Field Ops",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_019",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Tempest has been assigned the code color 'amber'.",
+    "question": "What is the code color for Project Tempest?",
+    "correct_answer": "amber",
+    "false_answer": "indigo",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_020",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Rigel has been assigned to Sector 14 for the 22:00 rotation.",
+    "question": "Which sector is Agent Rigel assigned to?",
+    "correct_answer": "Sector 14",
+    "false_answer": "Sector 11",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_021",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Andromeda is now lead investigator on Project Beacon, effective this quarter.",
+    "question": "Which project is Agent Andromeda leading?",
+    "correct_answer": "Project Beacon",
+    "false_answer": "Project Halcyon",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_022",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Polaris's briefing this afternoon will be held in room D-497.",
+    "question": "Where will Agent Polaris's briefing be held?",
+    "correct_answer": "Room D-497",
+    "false_answer": "Room D-597",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_023",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Procyon has been transferred to the Cartography department.",
+    "question": "Which department is Agent Procyon in this week?",
+    "correct_answer": "Cartography",
+    "false_answer": "Field Ops",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_024",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Meridian has been assigned the code color 'ivory'.",
+    "question": "What is the code color for Project Meridian?",
+    "correct_answer": "ivory",
+    "false_answer": "umber",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_025",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Andromeda has been assigned to Sector 8 for the 10:00 rotation.",
+    "question": "Which sector is Agent Andromeda assigned to?",
+    "correct_answer": "Sector 8",
+    "false_answer": "Sector 1",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_026",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Pegasus is now lead investigator on Project Vanguard, effective this quarter.",
+    "question": "Which project is Agent Pegasus leading?",
+    "correct_answer": "Project Vanguard",
+    "false_answer": "Project Cinder",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_027",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Procyon's briefing this afternoon will be held in room D-171.",
+    "question": "Where will Agent Procyon's briefing be held?",
+    "correct_answer": "Room D-171",
+    "false_answer": "Room D-221",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_028",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Corvus has been transferred to the Procurement department.",
+    "question": "Which department is Agent Corvus in this week?",
+    "correct_answer": "Procurement",
+    "false_answer": "Logistics",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_029",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Halcyon has been assigned the code color 'ivory'.",
+    "question": "What is the code color for Project Halcyon?",
+    "correct_answer": "ivory",
+    "false_answer": "jade",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_030",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Orion has been assigned to Sector 7 for the 22:00 rotation.",
+    "question": "Which sector is Agent Orion assigned to?",
+    "correct_answer": "Sector 7",
+    "false_answer": "Sector 14",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_031",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Orion is now lead investigator on Project Sable, effective this quarter.",
+    "question": "Which project is Agent Orion leading?",
+    "correct_answer": "Project Sable",
+    "false_answer": "Project Quartz",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_032",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Andromeda's briefing this afternoon will be held in room H-299.",
+    "question": "Where will Agent Andromeda's briefing be held?",
+    "correct_answer": "Room H-299",
+    "false_answer": "Room H-324",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_033",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Cygnus has been transferred to the Bio-Imaging department.",
+    "question": "Which department is Agent Cygnus in this week?",
+    "correct_answer": "Bio-Imaging",
+    "false_answer": "Cartography",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_034",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Cinder has been assigned the code color 'jade'.",
+    "question": "What is the code color for Project Cinder?",
+    "correct_answer": "jade",
+    "false_answer": "amber",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_035",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Altair has been assigned to Sector 8 for the 21:00 rotation.",
+    "question": "Which sector is Agent Altair assigned to?",
+    "correct_answer": "Sector 8",
+    "false_answer": "Sector 13",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_036",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Procyon is now lead investigator on Project Aurora, effective this quarter.",
+    "question": "Which project is Agent Procyon leading?",
+    "correct_answer": "Project Aurora",
+    "false_answer": "Project Tempest",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_037",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Cassiopeia's briefing this afternoon will be held in room D-318.",
+    "question": "Where will Agent Cassiopeia's briefing be held?",
+    "correct_answer": "Room D-318",
+    "false_answer": "Room D-343",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_038",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Rigel has been transferred to the Cartography department.",
+    "question": "Which department is Agent Rigel in this week?",
+    "correct_answer": "Cartography",
+    "false_answer": "Linguistics",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_039",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Lattice has been assigned the code color 'umber'.",
+    "question": "What is the code color for Project Lattice?",
+    "correct_answer": "umber",
+    "false_answer": "ivory",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_040",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Draco has been assigned to Sector 8 for the 07:00 rotation.",
+    "question": "Which sector is Agent Draco assigned to?",
+    "correct_answer": "Sector 8",
+    "false_answer": "Sector 16",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_041",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Corvus is now lead investigator on Project Granite, effective this quarter.",
+    "question": "Which project is Agent Corvus leading?",
+    "correct_answer": "Project Granite",
+    "false_answer": "Project Beacon",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_042",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Sirius's briefing this afternoon will be held in room G-442.",
+    "question": "Where will Agent Sirius's briefing be held?",
+    "correct_answer": "Room G-442",
+    "false_answer": "Room G-417",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_043",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Altair has been transferred to the Cryptography department.",
+    "question": "Which department is Agent Altair in this week?",
+    "correct_answer": "Cryptography",
+    "false_answer": "Procurement",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_044",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Granite has been assigned the code color 'ivory'.",
+    "question": "What is the code color for Project Granite?",
+    "correct_answer": "ivory",
+    "false_answer": "crimson",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_045",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Cygnus has been assigned to Sector 14 for the 16:00 rotation.",
+    "question": "Which sector is Agent Cygnus assigned to?",
+    "correct_answer": "Sector 14",
+    "false_answer": "Sector 18",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_046",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Procyon is now lead investigator on Project Vanguard, effective this quarter.",
+    "question": "Which project is Agent Procyon leading?",
+    "correct_answer": "Project Vanguard",
+    "false_answer": "Project Aurora",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_047",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Draco's briefing this afternoon will be held in room F-284.",
+    "question": "Where will Agent Draco's briefing be held?",
+    "correct_answer": "Room F-284",
+    "false_answer": "Room F-334",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_048",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Sirius has been transferred to the Bio-Imaging department.",
+    "question": "Which department is Agent Sirius in this week?",
+    "correct_answer": "Bio-Imaging",
+    "false_answer": "Cartography",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_049",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Aurora has been assigned the code color 'indigo'.",
+    "question": "What is the code color for Project Aurora?",
+    "correct_answer": "indigo",
+    "false_answer": "jade",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_050",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Polaris has been assigned to Sector 11 for the 08:00 rotation.",
+    "question": "Which sector is Agent Polaris assigned to?",
+    "correct_answer": "Sector 11",
+    "false_answer": "Sector 8",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_051",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Draco is now lead investigator on Project Vanguard, effective this quarter.",
+    "question": "Which project is Agent Draco leading?",
+    "correct_answer": "Project Vanguard",
+    "false_answer": "Project Meridian",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_052",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Lyra's briefing this afternoon will be held in room B-139.",
+    "question": "Where will Agent Lyra's briefing be held?",
+    "correct_answer": "Room B-139",
+    "false_answer": "Room B-239",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_053",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Orion has been transferred to the Cryptography department.",
+    "question": "Which department is Agent Orion in this week?",
+    "correct_answer": "Cryptography",
+    "false_answer": "Linguistics",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_054",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Cinder has been assigned the code color 'ivory'.",
+    "question": "What is the code color for Project Cinder?",
+    "correct_answer": "ivory",
+    "false_answer": "jade",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_055",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Orion has been assigned to Sector 5 for the 22:00 rotation.",
+    "question": "Which sector is Agent Orion assigned to?",
+    "correct_answer": "Sector 5",
+    "false_answer": "Sector 4",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_056",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Altair is now lead investigator on Project Sable, effective this quarter.",
+    "question": "Which project is Agent Altair leading?",
+    "correct_answer": "Project Sable",
+    "false_answer": "Project Argo",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_057",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Antares's briefing this afternoon will be held in room G-484.",
+    "question": "Where will Agent Antares's briefing be held?",
+    "correct_answer": "Room G-484",
+    "false_answer": "Room G-534",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_058",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Perseus has been transferred to the Bio-Imaging department.",
+    "question": "Which department is Agent Perseus in this week?",
+    "correct_answer": "Bio-Imaging",
+    "false_answer": "Cryptography",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_059",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Vanguard has been assigned the code color 'crimson'.",
+    "question": "What is the code color for Project Vanguard?",
+    "correct_answer": "crimson",
+    "false_answer": "jade",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_060",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Andromeda has been assigned to Sector 5 for the 22:00 rotation.",
+    "question": "Which sector is Agent Andromeda assigned to?",
+    "correct_answer": "Sector 5",
+    "false_answer": "Sector 9",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_061",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Sirius is now lead investigator on Project Cinder, effective this quarter.",
+    "question": "Which project is Agent Sirius leading?",
+    "correct_answer": "Project Cinder",
+    "false_answer": "Project Vanguard",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_062",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Hydra's briefing this afternoon will be held in room F-307.",
+    "question": "Where will Agent Hydra's briefing be held?",
+    "correct_answer": "Room F-307",
+    "false_answer": "Room F-332",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_063",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Orion has been transferred to the Logistics department.",
+    "question": "Which department is Agent Orion in this week?",
+    "correct_answer": "Logistics",
+    "false_answer": "Field Ops",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_064",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Vanguard has been assigned the code color 'amber'.",
+    "question": "What is the code color for Project Vanguard?",
+    "correct_answer": "amber",
+    "false_answer": "ochre",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_065",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Lyra has been assigned to Sector 8 for the 13:00 rotation.",
+    "question": "Which sector is Agent Lyra assigned to?",
+    "correct_answer": "Sector 8",
+    "false_answer": "Sector 13",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_066",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Polaris is now lead investigator on Project Meridian, effective this quarter.",
+    "question": "Which project is Agent Polaris leading?",
+    "correct_answer": "Project Meridian",
+    "false_answer": "Project Lattice",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_067",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Altair's briefing this afternoon will be held in room F-275.",
+    "question": "Where will Agent Altair's briefing be held?",
+    "correct_answer": "Room F-275",
+    "false_answer": "Room F-375",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_068",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Rigel has been transferred to the Field Ops department.",
+    "question": "Which department is Agent Rigel in this week?",
+    "correct_answer": "Field Ops",
+    "false_answer": "Bio-Imaging",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_069",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Tempest has been assigned the code color 'jade'.",
+    "question": "What is the code color for Project Tempest?",
+    "correct_answer": "jade",
+    "false_answer": "umber",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_070",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Procyon has been assigned to Sector 2 for the 05:00 rotation.",
+    "question": "Which sector is Agent Procyon assigned to?",
+    "correct_answer": "Sector 2",
+    "false_answer": "Sector 9",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_071",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Hydra is now lead investigator on Project Granite, effective this quarter.",
+    "question": "Which project is Agent Hydra leading?",
+    "correct_answer": "Project Granite",
+    "false_answer": "Project Quartz",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_072",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Cassiopeia's briefing this afternoon will be held in room F-242.",
+    "question": "Where will Agent Cassiopeia's briefing be held?",
+    "correct_answer": "Room F-242",
+    "false_answer": "Room F-217",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_073",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Andromeda has been transferred to the Cryptography department.",
+    "question": "Which department is Agent Andromeda in this week?",
+    "correct_answer": "Cryptography",
+    "false_answer": "Procurement",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_074",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Vanguard has been assigned the code color 'cobalt'.",
+    "question": "What is the code color for Project Vanguard?",
+    "correct_answer": "cobalt",
+    "false_answer": "ivory",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_075",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Phoenix has been assigned to Sector 14 for the 12:00 rotation.",
+    "question": "Which sector is Agent Phoenix assigned to?",
+    "correct_answer": "Sector 14",
+    "false_answer": "Sector 12",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_076",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Aquila is now lead investigator on Project Beacon, effective this quarter.",
+    "question": "Which project is Agent Aquila leading?",
+    "correct_answer": "Project Beacon",
+    "false_answer": "Project Meridian",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_077",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Antares's briefing this afternoon will be held in room F-269.",
+    "question": "Where will Agent Antares's briefing be held?",
+    "correct_answer": "Room F-269",
+    "false_answer": "Room F-319",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_078",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Pegasus has been transferred to the Cartography department.",
+    "question": "Which department is Agent Pegasus in this week?",
+    "correct_answer": "Cartography",
+    "false_answer": "Field Ops",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_079",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Aurora has been assigned the code color 'jade'.",
+    "question": "What is the code color for Project Aurora?",
+    "correct_answer": "jade",
+    "false_answer": "umber",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_080",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Procyon has been assigned to Sector 16 for the 18:00 rotation.",
+    "question": "Which sector is Agent Procyon assigned to?",
+    "correct_answer": "Sector 16",
+    "false_answer": "Sector 7",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_081",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Rigel is now lead investigator on Project Halcyon, effective this quarter.",
+    "question": "Which project is Agent Rigel leading?",
+    "correct_answer": "Project Halcyon",
+    "false_answer": "Project Meridian",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_082",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Sirius's briefing this afternoon will be held in room A-235.",
+    "question": "Where will Agent Sirius's briefing be held?",
+    "correct_answer": "Room A-235",
+    "false_answer": "Room A-210",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_083",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Phoenix has been transferred to the Linguistics department.",
+    "question": "Which department is Agent Phoenix in this week?",
+    "correct_answer": "Linguistics",
+    "false_answer": "Bio-Imaging",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_084",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Beacon has been assigned the code color 'ochre'.",
+    "question": "What is the code color for Project Beacon?",
+    "correct_answer": "ochre",
+    "false_answer": "crimson",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_085",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Perseus has been assigned to Sector 15 for the 20:00 rotation.",
+    "question": "Which sector is Agent Perseus assigned to?",
+    "correct_answer": "Sector 15",
+    "false_answer": "Sector 7",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_086",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Orion is now lead investigator on Project Meridian, effective this quarter.",
+    "question": "Which project is Agent Orion leading?",
+    "correct_answer": "Project Meridian",
+    "false_answer": "Project Beacon",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_087",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Rigel's briefing this afternoon will be held in room A-403.",
+    "question": "Where will Agent Rigel's briefing be held?",
+    "correct_answer": "Room A-403",
+    "false_answer": "Room A-453",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_088",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Capella has been transferred to the Field Ops department.",
+    "question": "Which department is Agent Capella in this week?",
+    "correct_answer": "Field Ops",
+    "false_answer": "Bio-Imaging",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_089",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Argo has been assigned the code color 'crimson'.",
+    "question": "What is the code color for Project Argo?",
+    "correct_answer": "crimson",
+    "false_answer": "amber",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_090",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Procyon has been assigned to Sector 4 for the 10:00 rotation.",
+    "question": "Which sector is Agent Procyon assigned to?",
+    "correct_answer": "Sector 4",
+    "false_answer": "Sector 6",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_091",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Polaris is now lead investigator on Project Halcyon, effective this quarter.",
+    "question": "Which project is Agent Polaris leading?",
+    "correct_answer": "Project Halcyon",
+    "false_answer": "Project Meridian",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_092",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Draco's briefing this afternoon will be held in room F-307.",
+    "question": "Where will Agent Draco's briefing be held?",
+    "correct_answer": "Room F-307",
+    "false_answer": "Room F-282",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_093",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Antares has been transferred to the Procurement department.",
+    "question": "Which department is Agent Antares in this week?",
+    "correct_answer": "Procurement",
+    "false_answer": "Telemetry",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_094",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Lattice has been assigned the code color 'ivory'.",
+    "question": "What is the code color for Project Lattice?",
+    "correct_answer": "ivory",
+    "false_answer": "crimson",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_095",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Corvus has been assigned to Sector 9 for the 13:00 rotation.",
+    "question": "Which sector is Agent Corvus assigned to?",
+    "correct_answer": "Sector 9",
+    "false_answer": "Sector 12",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_096",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Aquila is now lead investigator on Project Granite, effective this quarter.",
+    "question": "Which project is Agent Aquila leading?",
+    "correct_answer": "Project Granite",
+    "false_answer": "Project Lattice",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_097",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Perseus's briefing this afternoon will be held in room D-176.",
+    "question": "Where will Agent Perseus's briefing be held?",
+    "correct_answer": "Room D-176",
+    "false_answer": "Room D-201",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_098",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Phoenix has been transferred to the Procurement department.",
+    "question": "Which department is Agent Phoenix in this week?",
+    "correct_answer": "Procurement",
+    "false_answer": "Bio-Imaging",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_099",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Sable has been assigned the code color 'ochre'.",
+    "question": "What is the code color for Project Sable?",
+    "correct_answer": "ochre",
+    "false_answer": "crimson",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_100",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Hydra has been assigned to Sector 3 for the 14:00 rotation.",
+    "question": "Which sector is Agent Hydra assigned to?",
+    "correct_answer": "Sector 3",
+    "false_answer": "Sector 17",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_101",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Antares is now lead investigator on Project Beacon, effective this quarter.",
+    "question": "Which project is Agent Antares leading?",
+    "correct_answer": "Project Beacon",
+    "false_answer": "Project Granite",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_102",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Sirius's briefing this afternoon will be held in room C-340.",
+    "question": "Where will Agent Sirius's briefing be held?",
+    "correct_answer": "Room C-340",
+    "false_answer": "Room C-365",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_103",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Procyon has been transferred to the Procurement department.",
+    "question": "Which department is Agent Procyon in this week?",
+    "correct_answer": "Procurement",
+    "false_answer": "Cryptography",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_104",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Quartz has been assigned the code color 'umber'.",
+    "question": "What is the code color for Project Quartz?",
+    "correct_answer": "umber",
+    "false_answer": "jade",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_105",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Pegasus has been assigned to Sector 9 for the 22:00 rotation.",
+    "question": "Which sector is Agent Pegasus assigned to?",
+    "correct_answer": "Sector 9",
+    "false_answer": "Sector 6",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_106",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Lyra is now lead investigator on Project Granite, effective this quarter.",
+    "question": "Which project is Agent Lyra leading?",
+    "correct_answer": "Project Granite",
+    "false_answer": "Project Quartz",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_107",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Procyon's briefing this afternoon will be held in room C-297.",
+    "question": "Where will Agent Procyon's briefing be held?",
+    "correct_answer": "Room C-297",
+    "false_answer": "Room C-247",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_108",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Hydra has been transferred to the Cryptography department.",
+    "question": "Which department is Agent Hydra in this week?",
+    "correct_answer": "Cryptography",
+    "false_answer": "Procurement",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_109",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Cinder has been assigned the code color 'jade'.",
+    "question": "What is the code color for Project Cinder?",
+    "correct_answer": "jade",
+    "false_answer": "indigo",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_110",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Rigel has been assigned to Sector 2 for the 06:00 rotation.",
+    "question": "Which sector is Agent Rigel assigned to?",
+    "correct_answer": "Sector 2",
+    "false_answer": "Sector 3",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_111",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Rigel is now lead investigator on Project Tempest, effective this quarter.",
+    "question": "Which project is Agent Rigel leading?",
+    "correct_answer": "Project Tempest",
+    "false_answer": "Project Aurora",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_112",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Andromeda's briefing this afternoon will be held in room B-233.",
+    "question": "Where will Agent Andromeda's briefing be held?",
+    "correct_answer": "Room B-233",
+    "false_answer": "Room B-283",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_113",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Aquila has been transferred to the Bio-Imaging department.",
+    "question": "Which department is Agent Aquila in this week?",
+    "correct_answer": "Bio-Imaging",
+    "false_answer": "Linguistics",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_114",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Vanguard has been assigned the code color 'indigo'.",
+    "question": "What is the code color for Project Vanguard?",
+    "correct_answer": "indigo",
+    "false_answer": "amber",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_assign_115",
+    "type": "episodic",
+    "subtype": "assignment",
+    "context": "Today's operational briefing: Agent Andromeda has been assigned to Sector 19 for the 11:00 rotation.",
+    "question": "Which sector is Agent Andromeda assigned to?",
+    "correct_answer": "Sector 19",
+    "false_answer": "Sector 4",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_lead_116",
+    "type": "episodic",
+    "subtype": "lead",
+    "context": "Personnel update: Agent Antares is now lead investigator on Project Sable, effective this quarter.",
+    "question": "Which project is Agent Antares leading?",
+    "correct_answer": "Project Sable",
+    "false_answer": "Project Cinder",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_room_117",
+    "type": "episodic",
+    "subtype": "room",
+    "context": "Schedule note: Agent Andromeda's briefing this afternoon will be held in room E-231.",
+    "question": "Where will Agent Andromeda's briefing be held?",
+    "correct_answer": "Room E-231",
+    "false_answer": "Room E-331",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_dept_118",
+    "type": "episodic",
+    "subtype": "department",
+    "context": "HR roster (this week): Agent Sirius has been transferred to the Logistics department.",
+    "question": "Which department is Agent Sirius in this week?",
+    "correct_answer": "Logistics",
+    "false_answer": "Bio-Imaging",
+    "difficulty": "n/a"
+  },
+  {
+    "id": "epi_color_119",
+    "type": "episodic",
+    "subtype": "code_color",
+    "context": "Per the latest classification memo, Project Aurora has been assigned the code color 'ivory'.",
+    "question": "What is the code color for Project Aurora?",
+    "correct_answer": "ivory",
+    "false_answer": "jade",
+    "difficulty": "n/a"
+  }
+]
