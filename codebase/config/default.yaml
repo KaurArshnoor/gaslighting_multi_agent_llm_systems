@@ -1,0 +1,14 @@
+# Default experiment configuration. Override on the CLI with --key value.
+
+experiment:
+  name: "gaslighting_v1"
+  seed: 20260430
+  out_dir: "runs"
+
+# 2x2 factorial: attack_type x fact_type
+factorial:
+  attack_types: ["bare", "cot"]
+  fact_types: ["episodic", "semantic"]
+  n_exchanges_per_cell: 100      # >=100 per cell -> >=400 total per victim
+  turns_per_exchange: 12         # 10-15 range; 12 is the default
+  cot_specificity: "detailed"    # "vague" | "detailed" (ablation toggle)
