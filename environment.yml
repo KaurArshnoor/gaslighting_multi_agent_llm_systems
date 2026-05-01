@@ -1,0 +1,63 @@
+# Conda environment for the Gaslighting Resilience project.
+#
+# Create with:   conda env create -f environment.yml
+# Update with:   conda env update -f environment.yml --prune
+# Activate with: conda activate gaslighting
+#
+# Heavy ML libs (torch, transformers, transformer-lens, bitsandbytes) are
+# kept in the pip block on purpose. Conda's pytorch packages lag behind the
+# wheels on PyPI, and transformer-lens is pip-only.
+
+name: gaslighting
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.11
+
+  # Numerics + analysis (faster to install via conda-forge)
+  - numpy>=1.26.0
+  - pandas>=2.1.0
+  - scipy>=1.12.0
+  - scikit-learn>=1.4.0
+  - statsmodels>=0.14.0
+
+  # Plotting
+  - matplotlib>=3.8.0
+  - seaborn>=0.13.0
+  - plotly>=5.20.0
+
+  # Utilities
+  - pyyaml>=6.0
+  - tqdm>=4.66.0
+  - python-dotenv>=1.0.0
+  - jsonlines>=4.0.0
+  - rich>=13.7.0
+  - pyarrow>=15.0.0      # parquet I/O for shift_table
+  - pip>=24.0
+
+  # Testing + notebooks
+  - pytest>=8.0.0
+  - jupyterlab>=4.0.0
+  - ipykernel>=6.29.0
+
+  - pip:
+      # Core ML
+      - torch>=2.2.0
+      - transformers>=4.40.0
+      - accelerate>=0.30.0
+      - bitsandbytes>=0.43.0   # 4-bit / 8-bit if memory-tight (linux + CUDA)
+      - sentencepiece>=0.2.0
+      - safetensors>=0.4.0
+
+      # Mech interp
+      - transformer-lens>=2.0.0
+
+      # OpenAI attacker + judge
+      - openai>=1.30.0
+      - tiktoken>=0.7.0
+      - tenacity>=8.2.0
+
+      # Demo
+      - streamlit>=1.34.0

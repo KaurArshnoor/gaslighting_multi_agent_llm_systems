@@ -1,0 +1,40 @@
+# Core
+torch>=2.2.0
+transformers>=4.40.0
+accelerate>=0.30.0
+bitsandbytes>=0.43.0   # 4-bit / 8-bit if memory-tight
+sentencepiece>=0.2.0
+safetensors>=0.4.0
+
+# Mech interp
+transformer-lens>=2.0.0
+
+# OpenAI attacker + judge
+openai>=1.30.0
+tiktoken>=0.7.0
+tenacity>=8.2.0       # retry/backoff for API calls
+
+# Analysis
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.4.0
+scipy>=1.12.0
+statsmodels>=0.14.0
+
+# Plotting
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.20.0
+
+# Demo
+streamlit>=1.34.0
+
+# Utilities
+pyyaml>=6.0
+tqdm>=4.66.0
+python-dotenv>=1.0.0
+jsonlines>=4.0.0
+rich>=13.7.0
+
+# Testing
+pytest>=8.0.0
