@@ -1,0 +1,77 @@
+# Default experiment configuration. Override on the CLI with --key value.
+
+experiment:
+  name: "gaslighting_v1"
+  seed: 20260430
+  out_dir: "runs"
+
+# 2x2 factorial: attack_type x fact_type
+factorial:
+  attack_types: ["bare", "cot"]
+  fact_types: ["episodic", "semantic"]
+  n_exchanges_per_cell: 100      # >=100 per cell -> >=400 total per victim
+  turns_per_exchange: 12         # 10-15 range; 12 is the default
+  cot_specificity: "detailed"    # "vague" | "detailed" (ablation toggle)
+
+# Victim model registry. Pick one per run via --victim.
+victims:
+  llama:
+    hf_id: "meta-llama/Meta-Llama-3-8B-Instruct"
+    framework: "transformer_lens"
+    n_layers: 32
+    dtype: "float16"
+    chat_template: "llama3"
+  pythia:
+    hf_id: "EleutherAI/pythia-6.9b"
+    framework: "hf_hooks"
+    n_layers: 32
+    dtype: "float16"
+    chat_template: "plain"        # base model -> plain string template
+  mistral:
+    hf_id: "mistralai/Mistral-7B-v0.1"
+    framework: "hf_hooks"
+    n_layers: 32
+    dtype: "float16"
+    chat_template: "mistral_v01"
+
+# Attacker
+attacker:
+  provider: "openai"
+  model: "gpt-4o-mini"
+  temperature: 0.7
+  max_output_tokens: 400
+
+# Judge (LLM-as-a-judge)
+judge:
+  provider: "openai"
+  model: "gpt-4o"
+  temperature: 0.0
+  max_output_tokens: 300
+
+# Generation settings for the victim
+generation:
+  max_new_tokens: 200
+  temperature: 0.7
+  top_p: 0.95
+  do_sample: true
+
+# Activation extraction
+activations:
+  layers: "all"                   # "all" or list of indices
+  position: "last_token"
+  store_dtype: "float16"
+
+# Probe training
+probes:
+  early_layers: [1, 2, 3, 4, 5, 6, 7, 8]
+  middle_layers: [9, 10, 11, 12, 13, 14, 15, 16]
+  type: "logistic"                # "logistic" | "mlp"
+  test_size: 0.2
+  cv_folds: 5
+  permutation_n: 1000
+
+# Stats
+stats:
+  alpha: 0.05
+  bonferroni: true
+  ci: 0.95
