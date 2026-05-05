@@ -125,3 +125,76 @@ def proportion_ci(k: int, n: int, alpha: float = 0.05) -> tuple[float, float]:
     centre = (p + z * z / (2 * n)) / denom
     half = (z * np.sqrt(p * (1 - p) / n + z * z / (4 * n * n))) / denom
     return float(centre - half), float(centre + half)
+
+
+# ---------------------------------------------------------------------------
+def cohens_h(p1: float, p2: float) -> float:
+    """Cohen's h effect size for the difference between two proportions.
+
+    Useful alongside p-values: a chi-squared test on N=200 will trivially
+    reach significance for tiny differences, so we also report magnitude.
+
+    Conventional thresholds:
+      |h| < 0.2  : negligible
+      0.2 <= |h| < 0.5 : small
+      0.5 <= |h| < 0.8 : medium
+      |h| >= 0.8       : large
+    """
+    p1 = float(np.clip(p1, 1e-9, 1 - 1e-9))
+    p2 = float(np.clip(p2, 1e-9, 1 - 1e-9))
+    return float(2 * np.arcsin(np.sqrt(p1)) - 2 * np.arcsin(np.sqrt(p2)))
+
+
+def cohens_h_label(h: float) -> str:
+    a = abs(h)
+    if a < 0.2:
+        return "negligible"
+    if a < 0.5:
+        return "small"
+    if a < 0.8:
+        return "medium"
+    return "large"
+
+
+# ---------------------------------------------------------------------------
+def entropy_distribution_test(
+    df: pd.DataFrame,
+    *,
+    victim: str,
+    turn: int = 12,
+    fact_type: str | None = None,
+) -> dict:
+    """Test whether late-turn entropy distributions differ between attack
+    conditions, beyond a difference in means.
+
+    Reports both Mann-Whitney U (rank-based, robust to non-normality) and a
+    two-sample Kolmogorov-Smirnov (sensitive to any distributional shift).
+    """
+    sub = df[(df["victim"] == victim) & (df["turn"] == turn)]
+    if fact_type is not None:
+        sub = sub[sub["fact_type"] == fact_type]
+
+    bare = sub.loc[sub["condition"] == "bare", "entropy"].values
+    cot = sub.loc[sub["condition"] == "cot", "entropy"].values
+    if len(bare) == 0 or len(cot) == 0:
+        return {"victim": victim, "turn": turn, "n_bare": int(len(bare)),
+                "n_cot": int(len(cot)), "error": "empty cell"}
+
+    u_stat, u_p = stats.mannwhitneyu(bare, cot, alternative="two-sided")
+    ks_stat, ks_p = stats.ks_2samp(bare, cot)
+
+    return {
+        "victim": victim,
+        "turn": turn,
+        "fact_type": fact_type,
+        "n_bare": int(len(bare)),
+        "n_cot": int(len(cot)),
+        "mean_bare": float(np.mean(bare)),
+        "mean_cot": float(np.mean(cot)),
+        "median_bare": float(np.median(bare)),
+        "median_cot": float(np.median(cot)),
+        "mannwhitney_u": float(u_stat),
+        "mannwhitney_p": float(u_p),
+        "ks_stat": float(ks_stat),
+        "ks_p": float(ks_p),
+    }

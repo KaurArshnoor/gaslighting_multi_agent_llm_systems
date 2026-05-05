@@ -1,5 +1,6 @@
 {
   "n_exchanges": 1200,
+  "n_turns_max": 12,
   "per_cell_per_turn": [
     {
       "victim": "llama",
@@ -8,12 +9,12 @@
       "turn": 1,
       "mean_p_correct": 0.8883220472160989,
       "mean_p_false": 0.11167795278390111,
-      "sd_p_false": 0.19660750352811893,
+      "sd_p_false": 0.19660750352811895,
       "mean_entropy": 1.056410081870854,
       "n": 100,
-      "se_p_false": 0.019660750352811892,
-      "ci95_lo": 0.07314288209238981,
-      "ci95_hi": 0.1502130234754124
+      "se_p_false": 0.019660750352811895,
+      "ci95_lo": 0.0731428820923898,
+      "ci95_hi": 0.15021302347541243
     },
     {
       "victim": "llama",
@@ -50,10 +51,10 @@
       "turn": 4,
       "mean_p_correct": 0.633997057767524,
       "mean_p_false": 0.3660029422324759,
-      "sd_p_false": 0.36124970044629523,
+      "sd_p_false": 0.3612497004462953,
       "mean_entropy": 0.675139756227145,
       "n": 100,
-      "se_p_false": 0.03612497004462952,
+      "se_p_false": 0.03612497004462953,
       "ci95_lo": 0.29519800094500204,
       "ci95_hi": 0.4368078835199498
     },
@@ -78,10 +79,10 @@
       "turn": 6,
       "mean_p_correct": 0.5911094012745878,
       "mean_p_false": 0.4088905987254122,
-      "sd_p_false": 0.37996817022361024,
+      "sd_p_false": 0.3799681702236103,
       "mean_entropy": 0.40216011307318694,
       "n": 100,
-      "se_p_false": 0.037996817022361025,
+      "se_p_false": 0.03799681702236103,
       "ci95_lo": 0.3344168373615846,
       "ci95_hi": 0.48336436008923983
     },
@@ -176,12 +177,12 @@
       "turn": 1,
       "mean_p_correct": 0.8883220472160989,
       "mean_p_false": 0.11167795278390111,
-      "sd_p_false": 0.19660750352811893,
+      "sd_p_false": 0.19660750352811895,
       "mean_entropy": 1.056410081870854,
       "n": 100,
-      "se_p_false": 0.019660750352811892,
-      "ci95_lo": 0.07314288209238981,
-      "ci95_hi": 0.1502130234754124
+      "se_p_false": 0.019660750352811895,
+      "ci95_lo": 0.0731428820923898,
+      "ci95_hi": 0.15021302347541243
     },
     {
       "victim": "llama",
@@ -414,12 +415,12 @@
       "turn": 6,
       "mean_p_correct": 0.5777755715241181,
       "mean_p_false": 0.42222442847588193,
-      "sd_p_false": 0.23718128788187878,
+      "sd_p_false": 0.23718128788187876,
       "mean_entropy": 0.30241851682221293,
       "n": 100,
-      "se_p_false": 0.023718128788187878,
-      "ci95_lo": 0.37573689605103366,
-      "ci95_hi": 0.4687119609007302
+      "se_p_false": 0.023718128788187874,
+      "ci95_lo": 0.3757368960510337,
+      "ci95_hi": 0.46871196090073014
     },
     {
       "victim": "llama",
@@ -540,11 +541,11 @@
       "turn": 3,
       "mean_p_correct": 0.5300928967303129,
       "mean_p_false": 0.4699071032696871,
-      "sd_p_false": 0.22268923175787617,
+      "sd_p_false": 0.2226892317578762,
       "mean_entropy": 0.6876229959964985,
       "n": 100,
-      "se_p_false": 0.022268923175787617,
-      "ci95_lo": 0.4262600138451434,
+      "se_p_false": 0.02226892317578762,
+      "ci95_lo": 0.42626001384514334,
       "ci95_hi": 0.5135541926942309
     },
     {
@@ -624,7 +625,7 @@
       "turn": 9,
       "mean_p_correct": 0.5230969100267027,
       "mean_p_false": 0.4769030899732973,
-      "sd_p_false": 0.24910466741581047,
+      "sd_p_false": 0.24910466741581044,
       "mean_entropy": 0.6082194882570184,
       "n": 100,
       "se_p_false": 0.024910466741581046,
@@ -652,10 +653,10 @@
       "turn": 11,
       "mean_p_correct": 0.5046081295315288,
       "mean_p_false": 0.49539187046847116,
-      "sd_p_false": 0.24106264958789028,
+      "sd_p_false": 0.24106264958789025,
       "mean_entropy": 0.5680784056391712,
       "n": 100,
-      "se_p_false": 0.02410626495878903,
+      "se_p_false": 0.024106264958789026,
       "ci95_lo": 0.4481435911492447,
       "ci95_hi": 0.5426401497876977
     },
@@ -666,10 +667,10 @@
       "turn": 12,
       "mean_p_correct": 0.5216538081159201,
       "mean_p_false": 0.47834619188407984,
-      "sd_p_false": 0.2378996137926265,
+      "sd_p_false": 0.23789961379262647,
       "mean_entropy": 0.5483063660297194,
       "n": 100,
-      "se_p_false": 0.02378996137926265,
+      "se_p_false": 0.023789961379262647,
       "ci95_lo": 0.43171786758072506,
       "ci95_hi": 0.5249745161874346
     },
@@ -1030,10 +1031,10 @@
       "turn": 2,
       "mean_p_correct": 0.4744068834265335,
       "mean_p_false": 0.5255931165734665,
-      "sd_p_false": 0.10196714117799502,
+      "sd_p_false": 0.10196714117799503,
       "mean_entropy": 2.6534149347245695,
       "n": 100,
-      "se_p_false": 0.010196714117799502,
+      "se_p_false": 0.010196714117799504,
       "ci95_lo": 0.5056075569025795,
       "ci95_hi": 0.5455786762443535
     },
@@ -1114,10 +1115,10 @@
       "turn": 8,
       "mean_p_correct": 0.48676740097554266,
       "mean_p_false": 0.5132325990244574,
-      "sd_p_false": 0.1509897307925733,
+      "sd_p_false": 0.15098973079257327,
       "mean_entropy": 1.2766088804835454,
       "n": 100,
-      "se_p_false": 0.01509897307925733,
+      "se_p_false": 0.015098973079257328,
       "ci95_lo": 0.48363861178911305,
       "ci95_hi": 0.5428265862598017
     },
@@ -1450,10 +1451,10 @@
       "turn": 8,
       "mean_p_correct": 0.30856494366736986,
       "mean_p_false": 0.6914350563326301,
-      "sd_p_false": 0.20539406723367884,
+      "sd_p_false": 0.20539406723367887,
       "mean_entropy": 0.16615841160994024,
       "n": 100,
-      "se_p_false": 0.020539406723367883,
+      "se_p_false": 0.020539406723367886,
       "ci95_lo": 0.6511778191548291,
       "ci95_hi": 0.7316922935104312
     },
@@ -1576,10 +1577,10 @@
       "turn": 5,
       "mean_p_correct": 0.3589428237861005,
       "mean_p_false": 0.6410571762138996,
-      "sd_p_false": 0.21371462963822763,
+      "sd_p_false": 0.2137146296382276,
       "mean_entropy": 0.13206391870509834,
       "n": 100,
-      "se_p_false": 0.021371462963822762,
+      "se_p_false": 0.02137146296382276,
       "ci95_lo": 0.599169108804807,
       "ci95_hi": 0.6829452436229921
     },
@@ -1646,7 +1647,7 @@
       "turn": 10,
       "mean_p_correct": 0.4100241268302952,
       "mean_p_false": 0.5899758731697048,
-      "sd_p_false": 0.24507010420340888,
+      "sd_p_false": 0.2450701042034089,
       "mean_entropy": 0.5354323293501512,
       "n": 100,
       "se_p_false": 0.02450701042034089,
@@ -1842,10 +1843,10 @@
       "turn": 12,
       "mean_p_correct": 0.45586220080869977,
       "mean_p_false": 0.5441377991913002,
-      "sd_p_false": 0.15390218072767523,
+      "sd_p_false": 0.1539021807276752,
       "mean_entropy": 0.25771950475871563,
       "n": 100,
-      "se_p_false": 0.015390218072767522,
+      "se_p_false": 0.01539021807276752,
       "ci95_lo": 0.5139729717686758,
       "ci95_hi": 0.5743026266139246
     },
@@ -1954,10 +1955,10 @@
       "turn": 8,
       "mean_p_correct": 0.48676431370510215,
       "mean_p_false": 0.5132356862948978,
-      "sd_p_false": 0.1223264619286707,
+      "sd_p_false": 0.12232646192867068,
       "mean_entropy": 0.2418245555111207,
       "n": 100,
-      "se_p_false": 0.01223264619286707,
+      "se_p_false": 0.012232646192867068,
       "ci95_lo": 0.48925969975687833,
       "ci95_hi": 0.5372116728329173
     },
@@ -2010,10 +2011,10 @@
       "turn": 12,
       "mean_p_correct": 0.5069110295937507,
       "mean_p_false": 0.4930889704062493,
-      "sd_p_false": 0.23935879296362816,
+      "sd_p_false": 0.2393587929636282,
       "mean_entropy": 0.824641286432743,
       "n": 100,
-      "se_p_false": 0.023935879296362816,
+      "se_p_false": 0.02393587929636282,
       "ci95_lo": 0.44617464698537823,
       "ci95_hi": 0.5400032938271204
     }
@@ -2024,84 +2025,1583 @@
       "fact_type": "episodic",
       "condition": "bare",
       "capitulation_rate": 0.36,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.2727122040140433,
+      "ci95_hi": 0.4576459754839126
     },
     {
       "victim": "llama",
       "fact_type": "episodic",
       "condition": "cot",
       "capitulation_rate": 0.41,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.3186731302113651,
+      "ci95_hi": 0.5079856994658921
     },
     {
       "victim": "llama",
       "fact_type": "semantic",
       "condition": "bare",
       "capitulation_rate": 0.16,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.10095288488804782,
+      "ci95_hi": 0.24420269389270244
     },
     {
       "victim": "llama",
       "fact_type": "semantic",
       "condition": "cot",
       "capitulation_rate": 0.26,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.18404698464748132,
+      "ci95_hi": 0.3537098944918718
     },
     {
       "victim": "mistral",
       "fact_type": "episodic",
       "condition": "bare",
       "capitulation_rate": 0.55,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.45244602997442135,
+      "ci95_hi": 0.6438546202048803
     },
     {
       "victim": "mistral",
       "fact_type": "episodic",
       "condition": "cot",
       "capitulation_rate": 0.6,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.5020025867910618,
+      "ci95_hi": 0.6905987135675411
     },
     {
       "victim": "mistral",
       "fact_type": "semantic",
       "condition": "bare",
       "capitulation_rate": 0.47,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.3751081795934127,
+      "ci95_hi": 0.5671114302990063
     },
     {
       "victim": "mistral",
       "fact_type": "semantic",
       "condition": "cot",
       "capitulation_rate": 0.45,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.3561453797951198,
+      "ci95_hi": 0.5475539700255787
     },
     {
       "victim": "pythia",
       "fact_type": "episodic",
       "condition": "bare",
       "capitulation_rate": 0.72,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.6251197129007884,
+      "ci95_hi": 0.7986031478881379
     },
     {
       "victim": "pythia",
       "fact_type": "episodic",
       "condition": "cot",
       "capitulation_rate": 0.56,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.4622810465167699,
+      "ci95_hi": 0.6532797336983921
     },
     {
       "victim": "pythia",
       "fact_type": "semantic",
       "condition": "bare",
       "capitulation_rate": 0.39,
-      "n_exchanges": 100
+      "n_exchanges": 100,
+      "ci95_lo": 0.3001687400639441,
+      "ci95_hi": 0.4879698295415926
     },
     {
       "victim": "pythia",
       "fact_type": "semantic",
       "condition": "cot",
       "capitulation_rate": 0.38,
+      "n_exchanges": 100,
+      "ci95_lo": 0.29097599252478734,
+      "ci95_hi": 0.47790244704488916
+    }
+  ],
+  "capitulation_rate_by_difficulty": [
+    {
+      "victim": "llama",
+      "stratum": "episodic",
+      "condition": "bare",
+      "capitulation_rate": 0.36,
       "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "stratum": "episodic",
+      "condition": "cot",
+      "capitulation_rate": 0.41,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "stratum": "semantic/easy",
+      "condition": "bare",
+      "capitulation_rate": 0.10204081632653061,
+      "n_exchanges": 49
+    },
+    {
+      "victim": "llama",
+      "stratum": "semantic/easy",
+      "condition": "cot",
+      "capitulation_rate": 0.20408163265306123,
+      "n_exchanges": 49
+    },
+    {
+      "victim": "llama",
+      "stratum": "semantic/hard",
+      "condition": "bare",
+      "capitulation_rate": 0.21568627450980393,
+      "n_exchanges": 51
+    },
+    {
+      "victim": "llama",
+      "stratum": "semantic/hard",
+      "condition": "cot",
+      "capitulation_rate": 0.3137254901960784,
+      "n_exchanges": 51
+    },
+    {
+      "victim": "mistral",
+      "stratum": "episodic",
+      "condition": "bare",
+      "capitulation_rate": 0.55,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "stratum": "episodic",
+      "condition": "cot",
+      "capitulation_rate": 0.6,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "stratum": "semantic/easy",
+      "condition": "bare",
+      "capitulation_rate": 0.3673469387755102,
+      "n_exchanges": 49
+    },
+    {
+      "victim": "mistral",
+      "stratum": "semantic/easy",
+      "condition": "cot",
+      "capitulation_rate": 0.3673469387755102,
+      "n_exchanges": 49
+    },
+    {
+      "victim": "mistral",
+      "stratum": "semantic/hard",
+      "condition": "bare",
+      "capitulation_rate": 0.5686274509803921,
+      "n_exchanges": 51
+    },
+    {
+      "victim": "mistral",
+      "stratum": "semantic/hard",
+      "condition": "cot",
+      "capitulation_rate": 0.5294117647058824,
+      "n_exchanges": 51
+    },
+    {
+      "victim": "pythia",
+      "stratum": "episodic",
+      "condition": "bare",
+      "capitulation_rate": 0.72,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "stratum": "episodic",
+      "condition": "cot",
+      "capitulation_rate": 0.56,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "stratum": "semantic/easy",
+      "condition": "bare",
+      "capitulation_rate": 0.3469387755102041,
+      "n_exchanges": 49
+    },
+    {
+      "victim": "pythia",
+      "stratum": "semantic/easy",
+      "condition": "cot",
+      "capitulation_rate": 0.32653061224489793,
+      "n_exchanges": 49
+    },
+    {
+      "victim": "pythia",
+      "stratum": "semantic/hard",
+      "condition": "bare",
+      "capitulation_rate": 0.43137254901960786,
+      "n_exchanges": 51
+    },
+    {
+      "victim": "pythia",
+      "stratum": "semantic/hard",
+      "condition": "cot",
+      "capitulation_rate": 0.43137254901960786,
+      "n_exchanges": 51
+    }
+  ],
+  "per_turn_capitulation_rate": [
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 1,
+      "capit_by_turn": 0.05,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 2,
+      "capit_by_turn": 0.09,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 3,
+      "capit_by_turn": 0.27,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 4,
+      "capit_by_turn": 0.42,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 5,
+      "capit_by_turn": 0.48,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 6,
+      "capit_by_turn": 0.52,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 7,
+      "capit_by_turn": 0.53,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 8,
+      "capit_by_turn": 0.55,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 9,
+      "capit_by_turn": 0.57,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 10,
+      "capit_by_turn": 0.6,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 11,
+      "capit_by_turn": 0.6,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 12,
+      "capit_by_turn": 0.61,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 1,
+      "capit_by_turn": 0.15,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 2,
+      "capit_by_turn": 0.2,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 3,
+      "capit_by_turn": 0.23,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 4,
+      "capit_by_turn": 0.26,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 5,
+      "capit_by_turn": 0.26,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 6,
+      "capit_by_turn": 0.26,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 7,
+      "capit_by_turn": 0.26,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 8,
+      "capit_by_turn": 0.26,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 9,
+      "capit_by_turn": 0.26,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 10,
+      "capit_by_turn": 0.27,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 11,
+      "capit_by_turn": 0.27,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 12,
+      "capit_by_turn": 0.27,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 1,
+      "capit_by_turn": 0.05,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 2,
+      "capit_by_turn": 0.1,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 3,
+      "capit_by_turn": 0.77,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 4,
+      "capit_by_turn": 0.8,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 5,
+      "capit_by_turn": 0.81,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 6,
+      "capit_by_turn": 0.82,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 7,
+      "capit_by_turn": 0.82,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 8,
+      "capit_by_turn": 0.82,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 9,
+      "capit_by_turn": 0.82,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 10,
+      "capit_by_turn": 0.82,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 11,
+      "capit_by_turn": 0.82,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 12,
+      "capit_by_turn": 0.82,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 1,
+      "capit_by_turn": 0.15,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 2,
+      "capit_by_turn": 0.19,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 3,
+      "capit_by_turn": 0.33,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 4,
+      "capit_by_turn": 0.39,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 5,
+      "capit_by_turn": 0.41,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 6,
+      "capit_by_turn": 0.41,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 7,
+      "capit_by_turn": 0.42,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 8,
+      "capit_by_turn": 0.43,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 9,
+      "capit_by_turn": 0.44,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 10,
+      "capit_by_turn": 0.45,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 11,
+      "capit_by_turn": 0.46,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "llama",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 12,
+      "capit_by_turn": 0.46,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 1,
+      "capit_by_turn": 0.02,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 2,
+      "capit_by_turn": 0.6,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 3,
+      "capit_by_turn": 0.71,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 4,
+      "capit_by_turn": 0.73,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 5,
+      "capit_by_turn": 0.74,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 6,
+      "capit_by_turn": 0.75,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 7,
+      "capit_by_turn": 0.75,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 8,
+      "capit_by_turn": 0.76,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 9,
+      "capit_by_turn": 0.78,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 10,
+      "capit_by_turn": 0.79,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 11,
+      "capit_by_turn": 0.79,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 12,
+      "capit_by_turn": 0.79,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 1,
+      "capit_by_turn": 0.18,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 2,
+      "capit_by_turn": 0.46,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 3,
+      "capit_by_turn": 0.52,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 4,
+      "capit_by_turn": 0.52,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 5,
+      "capit_by_turn": 0.53,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 6,
+      "capit_by_turn": 0.55,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 7,
+      "capit_by_turn": 0.57,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 8,
+      "capit_by_turn": 0.57,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 9,
+      "capit_by_turn": 0.57,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 10,
+      "capit_by_turn": 0.57,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 11,
+      "capit_by_turn": 0.57,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 12,
+      "capit_by_turn": 0.57,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 1,
+      "capit_by_turn": 0.02,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 2,
+      "capit_by_turn": 0.6,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 3,
+      "capit_by_turn": 0.81,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 4,
+      "capit_by_turn": 0.84,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 5,
+      "capit_by_turn": 0.86,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 6,
+      "capit_by_turn": 0.87,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 7,
+      "capit_by_turn": 0.87,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 8,
+      "capit_by_turn": 0.87,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 9,
+      "capit_by_turn": 0.88,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 10,
+      "capit_by_turn": 0.88,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 11,
+      "capit_by_turn": 0.89,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 12,
+      "capit_by_turn": 0.89,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 1,
+      "capit_by_turn": 0.18,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 2,
+      "capit_by_turn": 0.44,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 3,
+      "capit_by_turn": 0.57,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 4,
+      "capit_by_turn": 0.57,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 5,
+      "capit_by_turn": 0.59,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 6,
+      "capit_by_turn": 0.6,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 7,
+      "capit_by_turn": 0.61,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 8,
+      "capit_by_turn": 0.61,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 9,
+      "capit_by_turn": 0.61,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 10,
+      "capit_by_turn": 0.61,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 11,
+      "capit_by_turn": 0.61,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "mistral",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 12,
+      "capit_by_turn": 0.61,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 1,
+      "capit_by_turn": 0.01,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 2,
+      "capit_by_turn": 0.66,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 3,
+      "capit_by_turn": 0.75,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 4,
+      "capit_by_turn": 0.8,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 5,
+      "capit_by_turn": 0.82,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 6,
+      "capit_by_turn": 0.83,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 7,
+      "capit_by_turn": 0.83,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 8,
+      "capit_by_turn": 0.84,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 9,
+      "capit_by_turn": 0.84,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 10,
+      "capit_by_turn": 0.84,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 11,
+      "capit_by_turn": 0.85,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "episodic",
+      "turn": 12,
+      "capit_by_turn": 0.85,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 1,
+      "capit_by_turn": 0.18,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 2,
+      "capit_by_turn": 0.36,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 3,
+      "capit_by_turn": 0.42,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 4,
+      "capit_by_turn": 0.44,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 5,
+      "capit_by_turn": 0.45,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 6,
+      "capit_by_turn": 0.45,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 7,
+      "capit_by_turn": 0.45,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 8,
+      "capit_by_turn": 0.45,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 9,
+      "capit_by_turn": 0.45,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 10,
+      "capit_by_turn": 0.45,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 11,
+      "capit_by_turn": 0.45,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "bare",
+      "fact_type": "semantic",
+      "turn": 12,
+      "capit_by_turn": 0.46,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 1,
+      "capit_by_turn": 0.01,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 2,
+      "capit_by_turn": 0.69,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 3,
+      "capit_by_turn": 0.79,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 4,
+      "capit_by_turn": 0.83,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 5,
+      "capit_by_turn": 0.83,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 6,
+      "capit_by_turn": 0.84,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 7,
+      "capit_by_turn": 0.86,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 8,
+      "capit_by_turn": 0.87,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 9,
+      "capit_by_turn": 0.9,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 10,
+      "capit_by_turn": 0.9,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 11,
+      "capit_by_turn": 0.94,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "episodic",
+      "turn": 12,
+      "capit_by_turn": 0.95,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 1,
+      "capit_by_turn": 0.18,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 2,
+      "capit_by_turn": 0.38,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 3,
+      "capit_by_turn": 0.44,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 4,
+      "capit_by_turn": 0.47,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 5,
+      "capit_by_turn": 0.48,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 6,
+      "capit_by_turn": 0.48,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 7,
+      "capit_by_turn": 0.48,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 8,
+      "capit_by_turn": 0.5,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 9,
+      "capit_by_turn": 0.51,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 10,
+      "capit_by_turn": 0.51,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 11,
+      "capit_by_turn": 0.51,
+      "n_exchanges": 100
+    },
+    {
+      "victim": "pythia",
+      "condition": "cot",
+      "fact_type": "semantic",
+      "turn": 12,
+      "capit_by_turn": 0.52,
+      "n_exchanges": 100
+    }
+  ],
+  "effect_sizes_cot_vs_bare": [
+    {
+      "victim": "llama",
+      "fact_type": "episodic",
+      "rate_cot": 0.41,
+      "rate_bare": 0.36,
+      "delta": 0.04999999999999999,
+      "cohens_h": 0.10280765796178026,
+      "magnitude": "negligible"
+    },
+    {
+      "victim": "llama",
+      "fact_type": "semantic",
+      "rate_cot": 0.26,
+      "rate_bare": 0.16,
+      "delta": 0.1,
+      "cohens_h": 0.2471079222553325,
+      "magnitude": "small"
+    },
+    {
+      "victim": "mistral",
+      "fact_type": "episodic",
+      "rate_cot": 0.6,
+      "rate_bare": 0.55,
+      "delta": 0.04999999999999993,
+      "cohens_h": 0.10119049962877091,
+      "magnitude": "negligible"
+    },
+    {
+      "victim": "mistral",
+      "fact_type": "semantic",
+      "rate_cot": 0.45,
+      "rate_bare": 0.47,
+      "delta": -0.019999999999999962,
+      "cohens_h": -0.04013136271628137,
+      "magnitude": "negligible"
+    },
+    {
+      "victim": "pythia",
+      "fact_type": "episodic",
+      "rate_cot": 0.56,
+      "rate_bare": 0.72,
+      "delta": -0.15999999999999992,
+      "cohens_h": -0.33530879100103506,
+      "magnitude": "small"
+    },
+    {
+      "victim": "pythia",
+      "fact_type": "semantic",
+      "rate_cot": 0.38,
+      "rate_bare": 0.39,
+      "delta": -0.010000000000000009,
+      "cohens_h": -0.020551380542168873,
+      "magnitude": "negligible"
+    }
+  ],
+  "entropy_distribution_tests": [
+    {
+      "victim": "llama",
+      "turn": 12,
+      "fact_type": null,
+      "n_bare": 200,
+      "n_cot": 200,
+      "mean_bare": 0.39984812464530933,
+      "mean_cot": 0.656011222187226,
+      "median_bare": 0.30061328411102295,
+      "median_cot": 0.7042536437511444,
+      "mannwhitney_u": 11523.0,
+      "mannwhitney_p": 2.2724216095747046e-13,
+      "ks_stat": 0.455,
+      "ks_p": 4.908580954287128e-19
+    },
+    {
+      "victim": "llama",
+      "turn": 12,
+      "fact_type": "episodic",
+      "n_bare": 100,
+      "n_cot": 100,
+      "mean_bare": 0.3766766961925168,
+      "mean_cot": 0.7637160783447325,
+      "median_bare": 0.30061328411102295,
+      "median_cot": 0.7939993441104889,
+      "mannwhitney_u": 1952.0,
+      "mannwhitney_p": 9.604702566613277e-14,
+      "ks_stat": 0.56,
+      "ks_p": 8.771130313572204e-15
+    },
+    {
+      "victim": "llama",
+      "turn": 12,
+      "fact_type": "semantic",
+      "n_bare": 100,
+      "n_cot": 100,
+      "mean_bare": 0.4230195530981018,
+      "mean_cot": 0.5483063660297194,
+      "median_bare": 0.2988039702177048,
+      "median_cot": 0.6350958943367004,
+      "mannwhitney_u": 3783.0,
+      "mannwhitney_p": 0.0029549821408487954,
+      "ks_stat": 0.35,
+      "ks_p": 7.850159128072286e-06
+    },
+    {
+      "victim": "mistral",
+      "turn": 12,
+      "fact_type": null,
+      "n_bare": 200,
+      "n_cot": 200,
+      "mean_bare": 1.2243845509761013,
+      "mean_cot": 1.5969581347878556,
+      "median_bare": 0.6744996905326843,
+      "median_cot": 0.9750681519508362,
+      "mannwhitney_u": 17642.0,
+      "mannwhitney_p": 0.041439290271768785,
+      "ks_stat": 0.155,
+      "ks_p": 0.016258459276759563
+    },
+    {
+      "victim": "mistral",
+      "turn": 12,
+      "fact_type": "episodic",
+      "n_bare": 100,
+      "n_cot": 100,
+      "mean_bare": 1.1687815056368709,
+      "mean_cot": 1.3922689543105662,
+      "median_bare": 0.689981609582901,
+      "median_cot": 0.7390754818916321,
+      "mannwhitney_u": 4949.0,
+      "mannwhitney_p": 0.9017973736659324,
+      "ks_stat": 0.12,
+      "ks_p": 0.469506448503778
+    },
+    {
+      "victim": "mistral",
+      "turn": 12,
+      "fact_type": "semantic",
+      "n_bare": 100,
+      "n_cot": 100,
+      "mean_bare": 1.2799875963153318,
+      "mean_cot": 1.801647315265145,
+      "median_bare": 0.6197468340396881,
+      "median_cot": 1.3388370275497437,
+      "mannwhitney_u": 3967.0,
+      "mannwhitney_p": 0.01164249180824363,
+      "ks_stat": 0.21,
+      "ks_p": 0.024055802841094577
+    },
+    {
+      "victim": "pythia",
+      "turn": 12,
+      "fact_type": null,
+      "n_bare": 200,
+      "n_cot": 200,
+      "mean_bare": 0.23825945587013847,
+      "mean_cot": 0.9469873759150506,
+      "median_bare": 0.19086667150259018,
+      "median_cot": 0.430649071931839,
+      "mannwhitney_u": 7496.0,
+      "mannwhitney_p": 2.9280786388385017e-27,
+      "ks_stat": 0.545,
+      "ks_p": 1.3166445983509098e-27
+    },
+    {
+      "victim": "pythia",
+      "turn": 12,
+      "fact_type": "episodic",
+      "n_bare": 100,
+      "n_cot": 100,
+      "mean_bare": 0.21879940698156133,
+      "mean_cot": 1.0693334653973579,
+      "median_bare": 0.18138166517019272,
+      "median_cot": 0.48655934631824493,
+      "mannwhitney_u": 1417.0,
+      "mannwhitney_p": 2.069446686656334e-18,
+      "ks_stat": 0.62,
+      "ks_p": 2.7084430241713094e-18
+    },
+    {
+      "victim": "pythia",
+      "turn": 12,
+      "fact_type": "semantic",
+      "n_bare": 100,
+      "n_cot": 100,
+      "mean_bare": 0.25771950475871563,
+      "mean_cot": 0.824641286432743,
+      "median_bare": 0.2171390801668167,
+      "median_cot": 0.4052727669477463,
+      "mannwhitney_u": 2347.0,
+      "mannwhitney_p": 9.106291896199501e-11,
+      "ks_stat": 0.47,
+      "ks_p": 2.359168035084735e-10
     }
   ],
   "chi_squared": {

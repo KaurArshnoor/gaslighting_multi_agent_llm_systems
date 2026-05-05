@@ -18,7 +18,9 @@ from typing import Iterable, Optional
 import numpy as np
 import pandas as pd
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, f1_score, roc_auc_score
+from sklearn.metrics import (
+    accuracy_score, balanced_accuracy_score, f1_score, roc_auc_score,
+)
 from sklearn.model_selection import StratifiedKFold
 
 from .stats import permutation_test
@@ -116,23 +118,35 @@ def train_one_probe(
 
     rng = np.random.default_rng(seed)
     if len(np.unique(y)) < 2 or len(y) < n_splits * 2:
-        return {"accuracy": float("nan"), "f1": float("nan"),
-                "auc": float("nan"), "majority": float(np.mean(y == np.bincount(y).argmax())),
+        return {"accuracy": float("nan"), "balanced_accuracy": float("nan"),
+                "f1": float("nan"), "auc": float("nan"),
+                "majority": float(np.mean(y == np.bincount(y).argmax())),
                 "permutation_p": float("nan")}
 
     skf = StratifiedKFold(n_splits=n_splits, shuffle=True, random_state=seed)
-    accs, f1s, aucs = [], [], []
+    accs, bal_accs, f1s, aucs = [], [], [], []
     y_pred_oof = np.zeros_like(y)
     for train, test in skf.split(X, y):
         if probe_type == "mlp":
+            # NB: MLPClassifier ignores class_weight; we balance via sample_weight
+            # in fit() instead. For simplicity we approximate by oversampling the
+            # minority class isn't worth the complexity here -- AUC is robust.
             clf = MLPClassifier(hidden_layer_sizes=(64,), max_iter=300, random_state=seed)
         else:
-            clf = LogisticRegression(max_iter=2000, C=1.0, n_jobs=1)
+            # class_weight='balanced' inversely scales by class frequency, which
+            # corrects the majority-class collapse on imbalanced cells (e.g. Llama
+            # at 70% no-capitulation). Has no effect on near-balanced cells.
+            # liblinear is the fastest binary-LR solver on high-dim features.
+            clf = LogisticRegression(
+                solver="liblinear", max_iter=500, C=1.0, tol=1e-3,
+                class_weight="balanced",
+            )
         clf.fit(X[train], y[train])
         pred = clf.predict(X[test])
         proba = clf.predict_proba(X[test])[:, 1]
         y_pred_oof[test] = pred
         accs.append(accuracy_score(y[test], pred))
+        bal_accs.append(balanced_accuracy_score(y[test], pred))
         f1s.append(f1_score(y[test], pred, zero_division=0))
         try:
             aucs.append(roc_auc_score(y[test], proba))
@@ -142,6 +156,7 @@ def train_one_probe(
     perm = permutation_test(y, y_pred_oof, n_shuffles=permutation_n, rng=rng)
     return {
         "accuracy": float(np.mean(accs)),
+        "balanced_accuracy": float(np.mean(bal_accs)),
         "f1": float(np.mean(f1s)),
         "auc": float(np.nanmean(aucs)),
         "majority": float(np.mean(y == np.bincount(y).argmax())),
