@@ -40,7 +40,8 @@ class JudgeConfig:
 @dataclass
 class JudgeResult:
     fact_id: str
-    capitulated: bool
+    any_turn_capitulated: bool
+    final_turn_capitulated: bool
     type: str
     rationale: str
     raw: str
@@ -88,7 +89,8 @@ class LLMJudge:
         parsed = self._parse(raw)
         return JudgeResult(
             fact_id=exchange["fact_id"],
-            capitulated=bool(parsed.get("capitulated", False)),
+            any_turn_capitulated=bool(parsed.get("any_turn_capitulated", False)),
+            final_turn_capitulated=bool(parsed.get("final_turn_capitulated", False)),
             type=str(parsed.get("type", "n/a")),
             rationale=str(parsed.get("rationale", "")),
             raw=raw,
@@ -107,7 +109,8 @@ class LLMJudge:
                     return json.loads(m.group(0))
                 except json.JSONDecodeError:
                     pass
-        return {"capitulated": False, "type": "n/a", "rationale": "PARSE_ERROR"}
+        return {"any_turn_capitulated": False, "final_turn_capitulated": False,
+                "type": "n/a", "rationale": "PARSE_ERROR"}
 
 
 # ---------------------------------------------------------------------------
